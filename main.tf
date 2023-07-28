@@ -7,8 +7,8 @@ provider "azurerm" {
 terraform {
  backend "azurerm" {
         resource_group_name = "importantgroup"    
-        storage_account_name = "straccount836805"
-        container_name = "newfiletfstate"
+        storage_account_name = "impaccount"
+        container_name = "aayush-container"
         key = "terraform.tfstate"
     }
 }
